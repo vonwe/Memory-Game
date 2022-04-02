@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Light and Sound Memory Game</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="memstyles.css">
+<script src="memory_game_start.js" defer></script>
+</head>
+
+<h1><center>Light and Sound Memory Game</center></h1>
+
+<body>Repeat the pattern back in order to win!
+
+<button id="start" onclick="game_start()"style="background-color:gray">Start</button>
+<button id="stop" onclick="game_stop()" style="background-color:gray" class="hidden">Stop</button>
+
+<div id="gamePad">
+<button id="b1" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+<button id="b2" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+<button id="b3" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+<button id="b4" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+</div>
+
+</body>

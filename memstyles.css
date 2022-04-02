@@ -1,0 +1,49 @@
+body{background-color: #4C808D; 
+color: white;}
+
+button{
+padding: 8px;
+border-radius: 5px;
+}
+
+#gamePad > button {
+width: 150px;
+height: 150px;
+margin: 3px;
+}
+
+#b1{
+background: red;
+}
+
+#b2{
+background: blue;
+}
+
+#b3{
+background: purple;
+}
+
+#b4{
+background: green;
+}
+
+#b1:active, #b1.lit{
+background:pink;
+}
+
+#b2:active, #b2.lit{
+background:lightblue;
+}
+
+#b3:active, #b3.lit{
+background:violet;
+}
+
+#b4:active, #b4.lit{
+background:lightgreen;
+}
+
+.hidden{
+display: none;
+}
